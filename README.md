@@ -91,7 +91,7 @@ public class HelloController implements Controller {
         
         //LOGGER.info("Returning hello view with " + now);
 	   	
-        return new ModelAndView(, "now", now);
+        return new ModelAndView(view, "now", now);
     }
 }
 ```
